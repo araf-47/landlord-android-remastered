@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Remastered Material3 tokens, Dark Slate & Neon Accents -->
+    <color name="md_primary">#818CF8</color>
+    <color name="md_on_primary">#1E1B4B</color>
+    <color name="md_primary_container">#312E81</color>
+    <color name="md_on_primary_container">#EEF2FF</color>
+
+    <color name="md_secondary">#38BDF8</color>
+    <color name="md_on_secondary">#082F49</color>
+    <color name="md_secondary_container">#0369A1</color>
+    <color name="md_on_secondary_container">#E0F2FE</color>
+
+    <color name="md_tertiary">#A78BFA</color>
+    <color name="md_on_tertiary">#2E1065</color>
+    <color name="md_tertiary_container">#581C87</color>
+    <color name="md_on_tertiary_container">#F3E8FF</color>
+
+    <color name="md_error">#FB7185</color>
+    <color name="md_on_error">#4C0519</color>
+    <color name="md_error_container">#881337</color>
+    <color name="md_on_error_container">#FFE4E6</color>
+
+    <color name="md_background">#0B0F19</color>
+    <color name="md_on_background">#F8FAFC</color>
+    <color name="md_surface">#111827</color>
+    <color name="md_on_surface">#F8FAFC</color>
+    <color name="md_surface_variant">#1F2937</color>
+    <color name="md_on_surface_variant">#94A3B8</color>
+
+    <color name="md_surface_container_lowest">#030712</color>
+    <color name="md_surface_container_low">#0F172A</color>
+    <color name="md_surface_container">#1E293B</color>
+    <color name="md_surface_container_high">#334155</color>
+    <color name="md_surface_container_highest">#475569</color>
+
+    <color name="md_outline">#64748B</color>
+    <color name="md_outline_variant">#334155</color>
+    <color name="md_scrim">#000000</color>
+    <color name="md_inverse_surface">#F8FAFC</color>
+    <color name="md_inverse_on_surface">#0F172A</color>
+    <color name="md_inverse_primary">#4F46E5</color>
+
+    <!-- Punchy semantic palette for status & financial indicators (Dark mode) -->
+    <color name="color_success">#34D399</color>
+    <color name="color_success_container">#064E3B</color>
+    <color name="color_on_success_container">#D1FAE5</color>
+
+    <color name="color_warning">#FBBF24</color>
+    <color name="color_warning_container">#78350F</color>
+    <color name="color_on_warning_container">#FEF3C7</color>
+
+    <color name="color_danger">#FB7185</color>
+    <color name="color_danger_container">#881337</color>
+    <color name="color_on_danger_container">#FFE4E6</color>
+
+    <color name="color_info">#38BDF8</color>
+    <color name="color_info_container">#0C4A6E</color>
+    <color name="color_on_info_container">#E0F2FE</color>
+
+    <color name="color_neutral">#94A3B8</color>
+    <color name="color_neutral_container">#1E293B</color>
+    <color name="color_on_neutral_container">#F1F5F9</color>
+
+    <color name="color_purple">#C084FC</color>
+    <color name="color_purple_container">#581C87</color>
+    <color name="color_on_purple_container">#F3E8FF</color>
+
+    <color name="landlord_gold_accent">#FBBF24</color>
+    <color name="landlord_primary">@color/md_primary</color>
+    <color name="landlord_primary_dark">#818CF8</color>
+    <color name="landlord_secondary">@color/md_secondary</color>
+    <color name="landlord_background">@color/md_background</color>
+    <color name="landlord_surface">@color/md_surface</color>
+    <color name="landlord_on_primary">@color/md_on_primary</color>
+</resources>

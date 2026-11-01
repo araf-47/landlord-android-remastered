@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base Layer: Midnight Obsidian to Deep Slate Teal -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp" />
+            <gradient
+                android:angle="135"
+                android:startColor="#09131F"
+                android:centerColor="#0F172A"
+                android:endColor="#064E3B"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Aurora Ribbon Layer: Soft Emerald & Cyan Glow -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp" />
+            <gradient
+                android:angle="45"
+                android:startColor="#0006B6D4"
+                android:centerColor="#2610B981"
+                android:endColor="#40047857"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Glassmorphic Specular Rim -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp" />
+            <stroke
+                android:width="1.5dp"
+                android:color="#30FFFFFF" />
+            <solid android:color="#00000000" />
+        </shape>
+    </item>
+</layer-list>
