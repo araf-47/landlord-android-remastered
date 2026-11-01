@@ -123,7 +123,7 @@ graph TD
     UI["Material 3 UI (Activities and Fragments)"] --> VM["ViewModels and LiveData"]
     VM --> Repos["Repositories"]
     Repos --> DAOs["Room DAOs"]
-    DAOs --> DB[("landlord_master.db")]
+    DAOs --> DB["landlord_master.db"]
     DB --> Seeder["Demo Data Seeder"]
     Auth["Local Auth Manager"] --> Session["Session Preferences"]
     UI --> Nav["Jetpack Navigation"]
