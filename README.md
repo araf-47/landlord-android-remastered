@@ -120,14 +120,14 @@ Color tokens (Indigo `#4F46E5`, Mint Emerald `#10B981`, Rose Coral `#F43F5E`, Am
 
 ```mermaid
 graph TD
-    UI[Material 3 UI · Activities & Fragments] --> VM[ViewModels & LiveData]
-    VM --> Repos[Repositories]
-    Repos --> DAOs[Room DAOs]
-    DAOs --> DB[(Standalone Room DB<br/>landlord_master.db)]
-    DB --> Seeder[Demo Data Seeder<br/>first-launch prepopulation]
-    Auth[Local Auth Manager] --> Session[(Session Preferences)]
-    UI --> Nav[Jetpack Navigation]
-    UI --> Widgets[Custom Views<br/>Bezier Chart · Occupancy Arc · Odometer]
+    UI["Material 3 UI (Activities and Fragments)"] --> VM["ViewModels and LiveData"]
+    VM --> Repos["Repositories"]
+    Repos --> DAOs["Room DAOs"]
+    DAOs --> DB[("landlord_master.db")]
+    DB --> Seeder["Demo Data Seeder"]
+    Auth["Local Auth Manager"] --> Session["Session Preferences"]
+    UI --> Nav["Jetpack Navigation"]
+    UI --> Widgets["Custom Views (Bezier Chart, Occupancy Arc, Odometer)"]
 ```
 
 **Key principles**
@@ -201,15 +201,19 @@ Database: `landlord_master.db` (Room). On first creation, `DatabaseSeeder` popul
 
 ## 📸 Screenshots
 
-> Add screenshots to `docs/screenshots/` and they will render here.
+> Screenshots are coming soon. Drop PNGs into `docs/screenshots/` using these filenames to populate the gallery:
 
-| Dashboard | Payments | Reports |
-|---|---|---|
-| ![Dashboard](docs/screenshots/dashboard.png) | ![Payments](docs/screenshots/payments.png) | ![Reports](docs/screenshots/reports.png) |
+```
+docs/screenshots/
+├── dashboard.png
+├── payments.png
+├── reports.png
+├── property_detail.png
+├── maintenance.png
+└── insights.png
+```
 
-| Property Detail | Maintenance | AI Insights |
-|---|---|---|
-| ![Property](docs/screenshots/property_detail.png) | ![Maintenance](docs/screenshots/maintenance.png) | ![Insights](docs/screenshots/insights.png) |
+Once added, the gallery above will be enabled. Contributions with screenshots are welcome.
 
 ---
 
