@@ -60,6 +60,7 @@
 18. [Roadmap](#-roadmap)
 19. [License](#-license)
 20. [Acknowledgements](#-acknowledgements)
+21. [Contact](#-contact)
 
 ---
 
