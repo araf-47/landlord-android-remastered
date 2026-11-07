@@ -20,8 +20,12 @@
   <a href="#-getting-started">Getting Started</a> ·
   <a href="#-features">Features</a> ·
   <a href="#-architecture">Architecture</a> ·
-  <a href="#-screenshots">Screenshots</a> ·
+  <a href="#-app-showcase--screenshots">Showcase</a> ·
   <a href="#-contributing">Contributing</a>
+</p>
+
+<p align="center">
+  <img src="images/LandLord-Android-app-showcase.jpg" alt="LandLord Android App Showcase" width="100%" />
 </p>
 
 ---
@@ -47,7 +51,7 @@
 5. [Tech Stack](#-tech-stack)
 6. [Modules](#-modules)
 7. [Database & Demo Seed](#-database--demo-seed)
-8. [Screenshots](#-screenshots)
+8. [App Showcase & Screenshots](#-app-showcase--screenshots)
 9. [Getting Started](#-getting-started)
 10. [Installation (APK)](#-installation-apk)
 11. [Project Structure](#-project-structure)
@@ -200,21 +204,16 @@ Database: `landlord_master.db` (Room). On first creation, `DatabaseSeeder` popul
 
 ---
 
-## 📸 Screenshots
+<a id="-screenshots"></a>
+## 📸 App Showcase & Screenshots
 
-> Screenshots are coming soon. Drop PNGs into `docs/screenshots/` using these filenames to populate the gallery:
+<p align="center">
+  <img src="images/LandLord-Android-app-showcase.jpg" alt="LandLord Android App Showcase — Feature Overview" width="100%" />
+</p>
 
-```
-docs/screenshots/
-├── dashboard.png
-├── payments.png
-├── reports.png
-├── property_detail.png
-├── maintenance.png
-└── insights.png
-```
-
-Once added, the gallery above will be enabled. Contributions with screenshots are welcome.
+<p align="center">
+  <i>Visual overview of LandLord Remastered featuring the Aurora "Fintech Executive" design system, KPI dashboard, unit roster, tenant management, and offline reporting engine.</i>
+</p>
 
 ---
 
